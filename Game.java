@@ -18,6 +18,7 @@ public class Game {
     if (mMisses.indexOf(letter) >= 0 || mHits.indexOf (letter) >= 0) {
       throw new IllegalArgumentException(letter + " has already been guessed");
     }
+// This is really cool
     return letter;
   }
   public boolean applyGuess(String letters) {
